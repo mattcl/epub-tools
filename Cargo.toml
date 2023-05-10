@@ -1,0 +1,15 @@
+[package]
+name = "epub-tools"
+version = "0.1.0"
+authors = ["Matt Chun-Lum <matt@questionable.engineering>"]
+edition = "2021"
+description = "A collection of tools for manipulating epub files."
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.71"
+clap = { version = "4.2.7", features = ["cargo", "derive", "env", "wrap_help"] }
+console = "0.15.5"
+epub = "2.0.0"
+walkdir = "2.3.3"
